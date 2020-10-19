@@ -9,6 +9,7 @@ alias ls='ls -la'
 alias finder='open -a Finder ./'
 alias desktop="cd ~/desktop"
 alias work="cd ~/work"
+alias whoops="git reset --hard"
 
 function resetcam {
     sudo killall VDCAssistant
